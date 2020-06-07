@@ -6,10 +6,10 @@ Faire un programme qui saisit une suite de nombre et qui dit les si les nombres 
 '''
 #saisir des nombres rangé dans un tableau
 Nb = [] 
-x = 1
+x = ()
 i = 0
-For in range (10) 
-        Nb.append(x + 1)
+For in range (i,10) 
+    Nb.append(x + 1)
     i =+1
     return NB   
 if Rang[ 0: 9] :

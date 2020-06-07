@@ -14,12 +14,12 @@ print (b)
 #utiliser selon que pour effectuer les opérations arithmétiques et afficher les résultats
 if op == (" + ") :  
     print (("la somme est : ", a + b))
-if op == (" - ") :  
-    print (("la difference est : ", a - b))
-if op == (" * ") :  
-    print (("le produit est : ", a * b))
-if op == (" / ") :  
-    if a == (0) :
-        print ("l'opération est invalide : ", )
-    Else
-        print (("le quotient est : ", a // b))
+    if op == (" - ") :  
+        print (("la difference est : ", a - b))
+        if op == (" * ") :  
+            print (("le produit est : ", a * b))
+            if op == (" / ") :  
+                if a == (0) :
+                print ("l'opération est invalide : ", )
+Else :
+    print (("le quotient est : ", a // b))
